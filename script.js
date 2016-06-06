@@ -21,11 +21,11 @@ $(document).ready(function() {
     var weatherDesc = data.weather.description;
     var weatherIcon = data.weather.icon;
     
-    $("#tempF").html(tempF);
-    $("#tempC").html(tempC);
-    $("#humd").html(humd);
+    $("#tempF").html(tempF + "\xB0" + "F");
+    $("#tempC").html(tempC + "\xB0" + "C");
+    $("#humd").html(humd + "%");
     $("#city").html(city);
-    $("#windSpeed").html(windSpeed);
+    $("#windSpeed").html(windSpeed + "mph");
     
     $("#weatherMain").html(weatherMain);
     $("#weatherDesc").html(weatherDesc);
