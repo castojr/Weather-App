@@ -1,23 +1,36 @@
+body{
+  background-image: url("http://davidbalyeat.com/wp-content/uploads/golden-gate-bridge-san-francisco-california-baker-beach-black-and-white-high-definition-hd-professional-landscape-photography.jpg");
+};
+.btn-group {
+  margin-bottom: -20px;
+  margin-left: 115px;
+  margin-top: 10px;
+};
 #city {
+  color: #ffffff;
   font-size: 50px;
   font-weight: bold;
   margin-bottom: -20px;
-  margin-left: 55px;
-  margin-top: 25px; 
-  
+  margin-left: 65px;
+  margin-top: 25px;  
 };
 #tempF {
+  color: #ffffff;
   font-size: 30px;
   font-weight: bold;
-  margin-left: 53px;
-  margin-top: 10px; 
+  margin-top: 22px; 
 };
 #humd {
+  color: #ffffff;
   font-size: 30px;
   font-weight: bold;
-  margin-left: -150px;
-  margin-top: 10px; 
+  margin-left: -125px;
+  margin-top: 22px; 
 };
 #windSpeed {
-  font-size: 20px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 50px;
 };
+
