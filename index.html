@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <meta charset="UTF-8"></meta>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="container=fluid">
-    <div id="city">
-    <h1 id="city" class="text-center"></h1>
+    <div class="btn-group" data-toggle="buttons">
+      <label class="btn btn-default">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> F
+  </label>
+      <label class="btn btn-default">
+    <input type="radio" name="options" id="option2" autocomplete="off"> C
+  </label>
     </div>
-    
-    
-    <div id="tempF"></div>
-    <div id="tempC"></div>
-    <div id="humd"></div>
     <div id="city"></div>
+    <div class="row">
+      <img id="weatherIcon" class="col-md-1" src="http://api.openweathermap.org/img/w/01d.png" /img>
+      <div id="tempF" class="col-md-2"></div>
+      <div id="humd" class="col-md-2"></div>
+    </div>
     <div id="windSpeed"></div>
-    <div id="weatherMain"></div>
-    <div id="weatherDesc"></div>
-    <div id="weatherIcon"></div>
   </div>
 </body> 
 </html>
